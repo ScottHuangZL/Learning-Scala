@@ -1,5 +1,6 @@
 # Learning Scala
-##20151205:  Consolidate before books and play samples into single repository 
+
+##20151206:  Consolidate before books and play samples into single repository 
 
 ##20151205:  Add some useful video links for learn Scala
 
