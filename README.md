@@ -5,6 +5,10 @@
 *  [Play 2 Sample1]
 (https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/readme.md)
 
+*  [Scala Days 2015 - Video - Anatomy Modern Play Application]
+(https://www.parleys.com/tutorial/anatomy-modern-play-application)
+Quite good video to show you some proposal when write play web projects.
+
 ##20151205:  Add some useful video links for learn Scala
 
 *  [Building Reactive Apps with Play Framework, Akka, and Scala on Vimeo]
