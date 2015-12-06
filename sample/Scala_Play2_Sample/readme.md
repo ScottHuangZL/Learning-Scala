@@ -23,18 +23,19 @@ Scala - Play2 framework - Samples
 	
 
 ####[1. Product List](https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/app/controllers/Products.scala "Product List")
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Product_List.png"> 
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Product_Detail.png"> 
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Product_New.png"> 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Product_List.png"> 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Product_Detail.png"> 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Product_New.png"> 
 
 
 ####[2. Tasks](https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/app/controllers/Application.scala "Tasks")
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Tasks.png"> 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Tasks.png"> 
 
 
 ####[3. Artists](https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/app/controllers/Application.scala "Artists")
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Artists.png" > 
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Artist_Search.png" > 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Artists.png" > 
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Artist_Search.png" > 
 
 
-<img src="https://github.com/ScottHuangZL/Scala_Play2_Sample/blob/master/public/images/Play2_Scott_Github.png" width="469" height="159"> 
+
+<img src="https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/public/images/Play2_Scott_Github.png" width="469" height="159"> 

@@ -32,6 +32,6 @@
     The contents from typesafe online help. 
     Scott pay effort to consolidate and convert to PDF format for easy reading. 
 
-   *  [Play 2 Web Framework](https://github.com/ScottHuangZL/Books/blob/master/scala/Play2_Web_Framework_For_Scala_Developer_Scott_Huang_v20151203.pdf)
-   *  [Play 2 Web Framework and Detail Topics](https://github.com/ScottHuangZL/Books/blob/master/scala/Play2_Web_Framework_and_Detail_Topics_Scott_Huang_v20151203.pdf)
-   *  [Slick 3.1](https://github.com/ScottHuangZL/Books/blob/master/scala/Play2_Slick3.1_Scott_Huang_v20151203.pdf)
+   *  [Play 2 Web Framework](https://github.com/ScottHuangZL/LearningScala/blob/master/book/Play2_Web_Framework_For_Scala_Developer_Scott_Huang_v20151203.pdf)
+   *  [Play 2 Web Framework and Detail Topics](https://github.com/ScottHuangZL/LearningScala/blob/master/book/Play2_Web_Framework_and_Detail_Topics_Scott_Huang_v20151203.pdf)
+   *  [Slick 3.1](https://github.com/ScottHuangZL/LearningScala/blob/master/book/Play2_Slick3.1_Scott_Huang_v20151203.pdf)
