@@ -1,0 +1,15 @@
+application.name = 产品目录
+
+ean = EAN
+name = 名字
+description = 描述
+products.details = 产品: {0}
+
+products.form = 详细产品
+products.new = (新建)
+products.new.command = 新建产品
+products.new.submit = 增加
+products.new.success = 成功增加产品 {0}.
+validation.errors = 请更正表单中的错误.
+validation.ean.duplicate = 这个EAN代码的产品已经存在
+products.list.navigation = 导航

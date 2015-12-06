@@ -1,0 +1,30 @@
+@import play.api.Play.current
+@import play.api.i18n.Messages.Implicits._
+@(artists: Seq[Artist])(implicit flash: Flash, lang: Lang)
+
+@main("Artists") {
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Action App</title>
+        </head>
+        <body>
+            <table class="table .table-condensed .table-striped .table-bordered .table-hover" >
+                <thead>
+                    <tr class="success">
+                        <th>Name</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @artists.map { artist =>
+                    <tr>
+                        <td>@artist.name</td>
+                        <td>@artist.country</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </body>
+    </html>
+}

@@ -1,0 +1,101 @@
+@import play.api.Play.current
+@import play.api.i18n.Messages.Implicits._
+@(title: String)(content: Html)(implicit flash: Flash, lang: Lang)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        @*<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />*@
+        <title>@title</title>
+        <link rel="stylesheet" type="text/css" media="screen"
+        href='@routes.Assets.versioned("bootstrap3/css/bootstrap.css")'>
+        <link rel="stylesheet" media="screen"
+        href="@routes.Assets.versioned("stylesheets/main.css")">
+    </head>
+    <body>
+        <div class="screenshot">
+            <nav class="navbar navbar-fixed-top navbar-inverse">
+                <div class="container">
+                    @*<ul class ="nav nav-pills">*@
+                    @*<li class="active">*@
+                    @*<a class="brand" href="@routes.Application.index()">*@
+                    @* @Messages("application.name")*@
+                    @*</a>*@
+                    @*</li>*@
+                    @*<li class="divider-vertical"></li>*@
+                    @*<li class="active">*@
+                    @*<a href="@routes.Products.list()">*@
+                    @* @Messages("products.list.navigation")*@
+                    @*</a>*@
+                    @*</li>*@
+                    @*<li class="active">*@
+                    @*<a href="@routes.Products.newProduct()">*@
+                    @*<i class="icon-plus icon-white"></i>*@
+                    @* @Messages("products.new.command")*@
+                    @*</a>*@
+                    @*</li>*@
+                    @*</ul>*@
+
+                    <a href="@routes.Application.index()" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        @Messages("application.name")
+                    </a>
+
+                    <a href="@routes.Products.newProduct()" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        <i class="icon-plus icon-white"></i>
+                        @Messages("products.new.command")
+                    </a>
+
+                    <span>&nbsp&nbsp&nbsp</span>
+                    <a href="@routes.TaskController.tasks()" class="btn btn-default">
+                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                        <i class="icon-plus icon-white"></i>
+                        @Messages("Tasks")
+                    </a>
+
+
+                    <span>&nbsp&nbsp&nbsp</span>
+                    <a href="@routes.API.listArtist()" class="btn btn-info">
+                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                        <i class="icon-plus icon-white"></i>
+                        @Messages("Artists")
+                    </a>
+                    <a href="@routes.API.search(name="Scott")" class="btn btn-info">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        <i class="icon-plus icon-white"></i>
+                        @Messages("Search Artists Scott")
+                    </a>
+
+                    <span>&nbsp&nbsp&nbsp</span>
+                    <a href="https://github.com/ScottHuangZL" class="btn btn-success" target="_blank">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <i class="icon-plus icon-white"></i>
+                        @Messages("Scott Github")
+                    </a>
+
+
+
+
+
+                    @*<li class="divider-vertical"></li>*@
+                </div>
+            </nav>
+
+            <div class="container">
+                @if(flash.get("success").isDefined) {
+                    <div class="alert alert-success">
+                    @flash.get("success")
+                    </div>
+                }
+                @if(flash.get("error").isDefined) {
+                    <div class="alert alert-error">
+                    @flash.get("error")
+                    </div>
+                }
+                @content
+                @debug()
+            </div>
+        </div>
+    </body>
+</html>

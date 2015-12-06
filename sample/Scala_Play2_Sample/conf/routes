@@ -1,0 +1,33 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /assets/*file              controllers.Assets.versioned(path="/public", file: Asset)
+
+
+# Home page
+
+
+GET           /                          controllers.Application.index
+GET           /products                  controllers.Products.list
+POST          /products                  controllers.Products.save
+GET           /products/new              controllers.Products.newProduct
+GET           /products/:ean             controllers.Products.show(ean: Long)
+GET           /barcode/:ean              controllers.Barcodes.barcode(ean: Long)
+
+# Tasks
+GET           /tasks                     controllers.TaskController.tasks
+POST          /tasks                     controllers.TaskController.newTask
+DELETE        /tasks/:id                 controllers.TaskController.deleteTask(id: Int)
+
+# API
+GET           /api/artist                controllers.API.listArtist
+GET           /api/artist/:name          controllers.API.fetchArtistByName(name)
+GET           /api/search/artist         controllers.API.search(name:String?="",country:String?="")
+GET           /api/search2/artist        controllers.API.search2(name:Option[String],country:String)
+
+#App Controller
+POST          /subscribe                 controllers.AppController.subscribe
+GET           /subscribe                 controllers.AppController.subscribe
+

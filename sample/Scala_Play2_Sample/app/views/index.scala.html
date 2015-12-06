@@ -1,0 +1,42 @@
+@*
+@(message: String)
+@main("Welcome to Play") {
+@play20.welcome(message)
+}
+*@
+@import play.api.Play.current
+@import play.api.i18n.Messages.Implicits._
+@(tasks: List[Task])(implicit flash: Flash, lang: Lang)
+
+    @main("Task Tracker") {
+        <div class="container">
+        <h2>Task Tracker</h2>
+        <div>
+            <form action="@routes.TaskController.newTask()" method="post">
+                <input type="text" name="taskName" placeholder="Add a new Task" required>
+                <input type="submit" value="Add">
+            </form>
+        </div>
+        <div class="pull-left">
+            <ul>
+            @tasks.map { task =>
+                <li>
+                    @task.name <button onclick = "deleteTask ( @task.id) ;"> Remove </button>
+                </li>
+            }
+            </ul>
+        </div>
+        </div>
+        <script>
+                function deleteTask ( id ) {
+                    var req = new XMLHttpRequest ( ) ;
+                    req.open ( "delete", "/tasks/" + id ) ;
+                    req.onload = function ( e ) {
+                        if ( req.status = 200 ) {
+                            document.location.reload ( true ) ;
+                        }
+                    } ;
+                    req.send ( ) ;
+                }
+        </script>
+    }
