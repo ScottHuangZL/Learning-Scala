@@ -1,12 +1,17 @@
 # Learning Scala
 
-##20151206:  Consolidate before books and play samples into single repository 
+##20151206:  Consolidate before books and play samples into single repository
+ 
 
 *  [Play 2 Sample1]
 (https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/readme.md)
+
+  Add two more useful video links:
 *  [Scala Days 2015 - Anatomy Modern Play Application]
 (https://www.parleys.com/tutorial/anatomy-modern-play-application)
 Quite good video to show you some proposals when write play web projects.
+*  [Scala Days 2015 - Whirlwind Tour Scala Ecosystem]
+(https://www.parleys.com/tutorial/whirlwind-tour-scala-ecosystem)
 
 ##20151205:  Add some useful video links for learn Scala
 
