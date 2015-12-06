@@ -1,4 +1,6 @@
-# Books
+# Learning Scala
+##20151205:  Consolidate before books and play samples into single repository 
+
 ##20151205:  Add some useful video links for learn Scala
 
 *  [Building Reactive Apps with Play Framework, Akka, and Scala on Vimeo]
