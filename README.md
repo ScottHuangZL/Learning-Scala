@@ -2,6 +2,9 @@
 
 ##20151206:  Consolidate before books and play samples into single repository 
 
+*  [Play 2 Sample1]
+(https://github.com/ScottHuangZL/LearningScala/blob/master/sample/Scala_Play2_Sample/readme.md)
+
 ##20151205:  Add some useful video links for learn Scala
 
 *  [Building Reactive Apps with Play Framework, Akka, and Scala on Vimeo]
